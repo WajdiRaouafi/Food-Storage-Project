@@ -1,43 +1,41 @@
 # Food-Storage-Project
 The Food Storage Project is a web application designed to manage food items in storage. It consists of both frontend and backend components built using Angular and Nest.js respectively.
-Features
-CRUD Operations: Users can perform CRUD (Create, Read, Update, Delete) operations on food items, including adding new items, viewing existing items, updating item information, and removing items from storage.
-Responsive Design: The frontend is built using Angular, providing a responsive and intuitive user interface that adapts to different screen sizes and devices.
-RESTful API: The backend, built with Nest.js, exposes a RESTful API that communicates with the frontend to perform data operations.
-Swagger Documentation: API documentation is generated using Swagger, providing detailed information about each endpoint and its usage.
-Postman Testing: Testing of CRUD operations can be done using Postman, ensuring the reliability and functionality of the API endpoints.
-Data Persistence: Food item data is stored in a MySQL database, ensuring data persistence and reliability.
-Technologies Used
-Frontend:
-
+# Features
+CRUD Operations: 
+Users can perform CRUD (Create, Read, Update, Delete) operations on food items, including adding new items, viewing existing items, updating item information, and removing items from storage.
+Responsive Design: 
+The frontend is built using Angular, providing a responsive and intuitive user interface that adapts to different screen sizes and devices.
+RESTful API: 
+The backend, built with Nest.js, exposes a RESTful API that communicates with the frontend to perform data operations.
+Swagger Documentation: 
+API documentation is generated using Swagger, providing detailed information about each endpoint and its usage.
+Postman Testing: 
+Testing of CRUD operations can be done using Postman, ensuring the reliability and functionality of the API endpoints.
+Data Persistence: 
+Food item data is stored in a MySQL database, ensuring data persistence and reliability.
+# Technologies Used
+- Frontend:
 Angular
 Bootstrap
 HTML5
 CSS3
 TypeScript
-Backend:
-
+- Backend:
 Nest.js
 TypeScript
 MySQL
-Installation
+# Installation
 To run the Food Storage Project locally, follow these steps:
-
-Clone this repository to your local machine.
-Navigate to the food-storage-frontend directory and run npm install to install frontend dependencies.
-Navigate to the food-storage-backend directory and run npm install to install backend dependencies.
-Set up your MySQL database and configure the connection details in the backend.
-Run npm start in both the frontend and backend directories to start the application.
-Usage
+1.Clone this repository to your local machine.
+2.Navigate to the food-storage-frontend directory and run npm install to install frontend dependencies.
+3.Navigate to the food-storage-backend directory and run npm install to install backend dependencies.
+4.Set up your MySQL database and configure the connection details in the backend.
+5.Run npm start in both the frontend and backend directories to start the application.
+# Usage
 Once the application is running locally, you can access it by navigating to http://localhost:4200 in your web browser. From there, you can perform CRUD operations on food items through the user interface.
 
 For API documentation, you can access the Swagger documentation by navigating to http://localhost:3000/api in your web browser.
 
-Contributing
+#Contributing
 Contributions to the Food Storage Project are welcome! Feel free to fork this repository, make changes, and submit pull requests for review.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Acknowledgements
-Special thanks to the developers of Angular, Nest.js, Bootstrap, and other open-source technologies used in this project.
