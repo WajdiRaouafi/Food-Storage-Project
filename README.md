@@ -13,6 +13,28 @@ Postman Testing:
 Testing of CRUD operations can be done using Postman, ensuring the reliability and functionality of the API endpoints.
 Data Persistence: 
 Food item data is stored in a MySQL database, ensuring data persistence and reliability.
+# Endpoints:
+GET /food-items: Retrieve a list of all food items stored in the system.
+GET /food-items/{id}: Retrieve details of a specific food item by its unique identifier.
+POST /food-items: Add a new food item to the storage system.
+PUT /food-items/{id}: Update the information of an existing food item.
+DELETE /food-items/{id}: Delete a food item from the storage system.
+Data Model:
+FoodItem:
+id (integer): Unique identifier for the food item.
+name (string): Name of the food item.
+quantity (integer): Quantity of the food item available in storage.
+expirationDate (date): Expiration date of the food item.
+Authentication:
+Authentication is not required to access the endpoints of this API.
+
+Response Codes:
+200 OK: Returned for successful GET, PUT, and DELETE requests.
+201 Created: Returned for successful POST requests.
+400 Bad Request: Returned if the request data is invalid.
+404 Not Found: Returned if the requested resource is not found.
+500 Internal Server Error: Returned for unexpected errors on the server side.
+For more detailed information about each endpoint and their usage, refer to the Swagger documentation or API documentation provided.
 # Technologies Used
 - Frontend:
 Angular
