@@ -26,8 +26,8 @@ TypeScript
 MySQL
 # Installation
 To run the Food Storage Project locally, follow these steps:
-1.Clone this repository to your local machine.
-2.Navigate to the food-storage-frontend directory and run npm install to install frontend dependencies.
+-1.Clone this repository to your local machine.
+-2.Navigate to the food-storage-frontend directory and run npm install to install frontend dependencies.
 3.Navigate to the food-storage-backend directory and run npm install to install backend dependencies.
 4.Set up your MySQL database and configure the connection details in the backend.
 5.Run npm start in both the frontend and backend directories to start the application.
